@@ -35,6 +35,7 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/e507820e-bd46-421f-b417-1
      - and finally deploy.
 
    - Go to the **cloudfront** now and select your account and go to **behavior**. click on **create behaviour**
+ ![image](https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/72660b64-72ca-4bb5-8176-a86b25566c9c)
      - ** Define path pattern** where the lambda function should run
      - **Origin and origin behaviour** provide the domain to qualify
      - **viewer policy** as **http and https**
