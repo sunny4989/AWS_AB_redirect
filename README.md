@@ -17,3 +17,30 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/e507820e-bd46-421f-b417-1
 
 ![image](https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/dfb31350-c220-4ea1-81b5-19f8e41eec7e)
 
+
+
+## Steps
+
+- Create Lambda function
+   ![image](https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/c1c850c2-0dd4-49f8-a8ad-3a650678f6c6)
+     - Setup from authore from scratch as shared in the image above.
+  - **Add trigger ** which will run the lambda function to cloud front. Click on the add trigger button.
+      ![image](https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/2a6d5534-d0d0-4558-886d-3929a3951204)
+    - Select a source as cloudfront.
+    - Click on deploy lambda@Edge
+    - Selct Distrubution which is cloudfront account
+    - select Cache behaviour(Cache behaviour help to set what information is needed in the lambda function to execule and which path it should run. Details will be shared in the next steps)
+    - select CloudFront event as origin request
+    - select Donfirm deployment of lambda@edge
+     - and finally deploy.
+
+   - Go to the **cloudfront** now and select your account and go to **behavior**
+     - ** Define path pattern** where the lambda function should run
+     - **Origin and origin behaviour** provide the domain to qualify
+     - **viewer policy** as **http and https**
+     - **Allowed http methods** as  **get, head**
+     - cache key control -
+     - **set cache policy ** as **amplify**
+     -  make sure that the **smooth streaming** is set **no**
+      
+   
