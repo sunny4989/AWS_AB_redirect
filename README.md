@@ -34,7 +34,7 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/e507820e-bd46-421f-b417-1
     - select Donfirm deployment of lambda@edge
      - and finally deploy.
 
-   - Go to the **cloudfront** now and select your account and go to **behavior**
+   - Go to the **cloudfront** now and select your account and go to **behavior**. click on **create behaviour**
      - ** Define path pattern** where the lambda function should run
      - **Origin and origin behaviour** provide the domain to qualify
      - **viewer policy** as **http and https**
