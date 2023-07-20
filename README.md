@@ -15,5 +15,5 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/e507820e-bd46-421f-b417-1
 ### Option 3 - DynamoDB
 https://catalog.us-east-1.prod.workshops.aws/workshops/e507820e-bd46-421f-b417-107cd608a3b2/en-US/006-module-3/003-dynamodb
 
-https://static.us-east-1.prod.workshops.aws/public/538195ef-d6d8-453e-8a16-bcbf578c18b8/static/images/architecture_module_3_2.png?classes=shadow&width=1280![image](https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/dfb31350-c220-4ea1-81b5-19f8e41eec7e)
+![image](https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/dfb31350-c220-4ea1-81b5-19f8e41eec7e)
 
