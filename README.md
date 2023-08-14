@@ -41,10 +41,10 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/e507820e-bd46-421f-b417-1
      - **viewer policy** as **http and https**
      - **Allowed http methods** as  **get, head**
      - cache key control -
-     - **set cache policy ** as shared in the below screenshot. 
+     - **set cache policy ** as shared in the below screenshot.
 ![image]([https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/db4a61ba-4ffe-450a-8707-573807f86d25])
      - Create new **Origin Request Policy** as shared in below image:
-     ![image]([https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/f0fac778-2699-4dd4-9d10-200d71dbc184])
+![image]([https://github.com/sunny4989/AWS_AB_redirect/assets/1546164/f0fac778-2699-4dd4-9d10-200d71dbc184])
      -  make sure that the **smooth streaming** is set **no**
       
    
