@@ -1,6 +1,13 @@
-# AWS_AB_redirect
+ # AWS_AB_redirect
 AB redirect testing using AWS cloudfront, Lambda services 
 There are multiple soultion to do AB Redictect testing server side directly. 
+
+## Business Usecase
+### Problem
+AB testing usecase happend on the server side which include the problem with the expereince. The redirect doesnot give good expereice to customer as the redirect are on the client side and need server script to load and act. 
+
+### Solution 
+Using server side redirect helps to improve the user expereince. It also take care of the tracking by adding a query parameter whenever redirect happens.
 
 ## Module 1 - Random A/B
 https://catalog.us-east-1.prod.workshops.aws/workshops/e507820e-bd46-421f-b417-107cd608a3b2/en-US/004-module-1
